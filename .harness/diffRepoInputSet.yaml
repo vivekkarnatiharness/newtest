@@ -1,5 +1,6 @@
 inputSet:
   name: diffRepoInputSet
+  tags: {}
   identifier: diffRepoInputSet
   orgIdentifier: default
   projectIdentifier: Fardeen
@@ -20,3 +21,8 @@ inputSet:
                         type: Inline
                         spec:
                           script: echo "diff repo input set test"
+                    timeout: 12m
+  cacheResponse:
+    cacheState: VALID_CACHE
+    ttlLeft: 259189830
+    lastUpdatedAt: 1689595346363
